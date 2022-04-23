@@ -1,6 +1,6 @@
 {
   "name": "carta-ally-driver",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Custom ally drivers for carta",
   "main": "build/providers/index.js",
   "files": [
