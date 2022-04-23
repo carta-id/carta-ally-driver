@@ -1,7 +1,7 @@
 {
-  "name": "ally-custom-driver",
+  "name": "carta-ally-driver",
   "version": "0.0.0",
-  "description": "A boilerplate for a custom ally driver",
+  "description": "Custom ally drivers for carta",
   "main": "build/providers/index.js",
   "files": [
     "build/src",
@@ -45,12 +45,12 @@
   "adonisjs": {
     "instructionsMd": "./build/instructions.md",
     "env": {
-      "YOUR_DRIVER_CLIENT_ID": "",
-      "YOUR_DRIVER_CLIENT_SECRET": ""
+      "CARTA_DRIVER_CLIENT_ID": "",
+      "CARTA_DRIVER_CLIENT_SECRET": ""
     },
-    "types": "ally-custom-driver",
+    "types": "carta-ally-driver",
     "providers": [
-      "ally-custom-driver"
+      "carta-ally-driver"
     ]
   }
 }
